@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;  
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+nav {
+    background: rgb(76, 170, 199);
+    width: 100%;
+    height: 60px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+}
+
+nav ul {
+    margin-left: 100px;
+}
+
+nav ul li {       
+    margin-top: 20px;  
+    margin-left: 125px;
+    display: inline-block;
+    padding-left: 30px;        
+}
+
+nav ul li a {
+    color: #ffff;
+    text-transform: uppercase;    
+    font-size: 10pt;  
+    height: 100%;  
+}
+
+nav ul a {
+    color: #ffff;
+}
+
+.slide img {
+    width: 100%;
+    height: 585px;    
+}
+
+.center {
+    float: right;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 12px;    
+}
+
+.center a {
+    margin-right: 15px;    
+}
+
+a:link {
+    text-decoration: none;    
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}   
+
+.ambienteimg {
+    margin-top: 150px; 
+    margin-right: 10px;   
+}
+
+
+.bodycentro {    
+    margin-left: 9%;
+    margin-right: 10%;        
+}
+
+
+.info ul li {
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+    border-bottom: rgb(106, 168, 184);
+    border-bottom-style: groove;
+    border-width: 2px;    
+}
+
+.texto {
+    position: relative;
+    margin-right: 10px;
+    margin-top: -430px;
+    margin-left: 400px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.boxservic {
+    width: 700px;
+    height: 220px;
+    margin-top: 50px;
+    background: url("imagens/green2.png");    
+    padding-top: 30px; 
+    padding-left: 15px;
+    padding-right: 15px;  
+    border-radius: 15px;   
+    font-size: large;
+}
+
+.textbox {
+    padding-left: 15px;
+    color: rgb(34, 34, 34);
+}
+.boxservic2 {
+    width: 700px;
+    height: 220px;
+    margin-top: 20px;
+    background: url("imagens/oceano2.png");    
+    padding-top: 30px;   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.textbox2 {
+    padding-left: 15px;
+    color: rgb(34, 34, 34);
+}
+.end {
+    margin-top: 35px;
+    background-color: rgb(76, 170, 199);
+    height: 165px;    
+    padding-top: 15px;
+    border-top: rgba(206, 245, 255, 0.863);
+    border-width: 6px;
+    border-top-style: solid;  
+    padding-left: 120px;  
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.p-endpage {
+	color: black;
+	text-decoration: none;
+	display: flex;
+	align-self: end;
+}

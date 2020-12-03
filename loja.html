@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="lojaStyle.css">
+</head>
+
+<body class="body">
+
+    <nav>
+        
+        <ul>
+            <li><a href="index.html" id="inicio">Início</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li id="btnLogin"><a href="login.html">Login</a></li>
+            <li id="btnCadast"><a href="cadastro.html">Cadastrar</a></li>
+            
+            <div class="center">       
+                <a style="margin-bottom:4px;" href="">Contato</a>
+                <a><img src="./imagens/whatsapp.png" alt="whatsapp"></a>
+                <a><img src="./imagens/facebook.png" alt="facebook"></a>
+                <a><img src="./imagens/instagram.png" alt="instagram"></a>
+            </div>
+        </ul> 
+    </nav>
+    
+   
+<a href="index.html"><button class="btnVoltar">Voltar</button></a>
+    
+    <div class="container">
+
+            <div class="userName">
+                
+                <label style="color: #52a834;">User</label>
+            </div>
+            
+            
+        
+        <!-- Lista de Produtos -->
+        <div id="produtos">
+            <ul>
+                <form><input type="hidden" name="produto" value="10"><li><label>Produto 1: 10 pontos</label><button onclick="functionBuy()">Comprar</button></li></form>
+                
+                <form><input type="hidden" name="produto" value="25"><li><label>Produto 2: 25 pontos</label><button onclick="functionBuy()">Comprar</button></li></form>
+                
+                <form><input type="hidden" name="produto" value="50"><li><label>Produto 3: 50 pontos</label><button onclick="functionBuy()">Comprar</button></li></form>
+                
+                <form><input type="hidden" name="produto" value="100"><li><label>Produto 4: 100 pontos</label><button onclick="functionBuy()">Comprar</button></li></form>
+                
+            </ul>
+        </div> 
+    </div>
+        
+        <div class="end">                   
+            
+        </div>
+
+        <script src="script.js"></script>
+   
+
+</body>
+</html>
